@@ -1,0 +1,75 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif Franklin Gothic Medium;
+    background: linear-gradient(90deg, #555555, #424242, #333131, #363636, #443c3c, #474747);
+    background-size: 500% 500%;
+    animation: Gradient 30s ease infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    outline: 2px solid #000; 
+    width: 350px;
+    height: 220px;
+    border-radius: 40px;
+    margin: 10px;
+    display: inline-block;
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    transform: translate(1.6em, 1.56em)
+}
+
+hr {
+    color: black;
+}
+
+.glava {
+    transform: translate(-0.0001em, 2em)
+}
+
+.glava2 {
+    outline: 2px solid #000; 
+    width: 400px;
+    height: 220px;
+    border-radius: 40px;
+    margin:10px;
+    display: inline-block;
+}
+
+h2 {
+    text-align: center;
+}
+
+span {
+    color: #000;
+}
+
+h3 {
+    text-align: center;
+}
+
+span {
+    font-weight: 900;
+    color:#001a8f
+}
+
+a {
+    color:rgb(72, 118, 119)
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="ru">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Spravochnik programista html </title>
+    <link rel="icon" href="assets/icons8-справочник-100.png" type="icon">
+    <link rel="stylesheet" href="css/html.css">
+</head>
+
+<body>
+    <header>
+        <h1>Теги и примеры использования</h1>
+    </header>
+    <section class="glava2">
+        <h2 class="glava">Здесь будут изученные теги и по мере изучения они будут обновляться</h2>
+    </section>
+    <hr color>
+    <main>
+        <section>
+            Я не знал как сделать тег не тегом поэтому < > эти скобки меняются на { } эти надеюсь на понимание
+                <ul>
+                    <li><a href="#1">Основные теги</a></li>
+                    <li><a href="#2">Теги оглавления</a></li>
+                    <li><a href="#3">Теги форматирования текста</a></li>
+                    <li><a href="#4">Гиперссылки</a></li>
+                    <li><a href="#5">Форматирование</a></li>
+                    <li><a href="#6">Графические элементы</a></li>
+                    <li><a href="#7">Таблицы</a></li>
+                    <li><a href="#8">Атрибуты таблицы</a></li>
+                    <li><a href="#9">Формы</a></li>
+                </ul>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="1">Основные теги</h2>
+            <p><span>{html}{/html}</span> - Указывает программе просмотра страниц, что это HTML документ.</p>
+            <p><span>{head}{/head}</span> -Определяет место, где помещается различная информация не отображаемая в теле документа. Здесьрасполагается тег названия документа и теги для поисковых машин.</p>
+            <p><span>{body}{/body}</span> - Определяет видимую часть документа</p>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="2">Теги оглавления</h2>
+            <p><span>{title}{/title}</span> - Помещает название документа в оглавление программы просмотра страниц</p>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="3">Теги форматирования текста</h2>
+            <p><span>{h1}{/h1}</span> - Создаёт самый большой заголовок </p>
+            <p><span>{h6}{/h6}</span> - Создаёт самый маленький заголовок (всего заголовков 1,2,3,4,5,6)</p>
+            <p><span>{b}{/b}</span> - <b>Делает жирным текст</b></p>
+            <p><span>{i}{/i}</span> - <i>Делает текст наклонным</i></p>
+            <p><span>{tt}{/tt}</span> - <tt>Создает текст - имитирующий стиль печатной машинки</tt></p>
+            <p><span>{cite}{/cite}</span> - <cite>Используется для цитат, обычно наклонный текст</cite></p>
+            <p><span>{em}{/em}</span> - Используется для выделения из текста слова <em>(наклонный или жирный текст)</em></p>
+            <p><span>{font size=?}{/font}</span> - Устанавливает размер текста в пределах от 1 до 7</p>
+            <p><span>{font color=?}{/font}</span> - Устанавливает цвет текста, используя значение цвета в виде RRGGBB</p>
+        </section>
+        <section>
+            <h2 id="4">Гиперссылки</h2>
+            <p><span>{a href="URL"}ТЕКСТ{/a}</span> - Создает гиперссылку на другие документы или часть текущего документа. Здесь URL адрес ссылки, ТЕКСТ - текст ссылки</p>
+            <p><span>{a href="URL" target="_blank"}ТЕКСТ{/a}</span> - Создает гиперссылку на другие документы или часть текущегодокумента. Здесь URL адрес ссылки, ТЕКСТ - текст ссылки, _blank открывает ссылку в новом окне</p>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="5">Форматирование</h2>
+            <p><span>{p}{/p}</span> - Создаёт новый параграф</p>
+            <p><span>{p align=?}</span> - Выравнивает параграф относительно одной из сторон документа, значения: left, right, justifyили center</p>
+            <p><span>{br}</span> - Вставляет перевод строки.</p>
+            <p><span>{blockquote}{/blockquote}</span> - Создает отступы с обеих сторон текста</p>
+            <p><span>{ol}{/ol}</span> - Создает нумерованный список</p>
+            <p><span>{ul}{/ul}</span> - Создает ненумерованный список</p>
+            <p><span>{li}{/li}</span> - Предваряет каждый элемент списка и добавляет кружок или квадратик</p>
+            <h4>Использование кодов символов и специальных знаков в документе HTML перед символом # ставьте символ &</h4>
+            <p><span>#32;</span> пробел</p>
+            <p><span>#33;</span> !</p>
+            <p><span>#34;</span> "</p>
+            <p><span>#35;</span> #</p>
+            <p><span>#36;</span> $</p>
+            <p><span>#37;</span> %</p>
+            <p><span>#38;</span> &</p>
+            <p><span>#60;</span> < </p>
+            <p><span>#61;</span> =</p>
+            <p><span>#62;</span> ></p>
+            <p><span>#169;</span> ©</p>
+            <p><span>#171;</span> «</p>
+            <p><span>#177;</span> ±</p>
+            <p><span>#185;</span> ¹</p>
+            <p><span>#187;</span> »</p>
+            <p><span>#197;</span> Å</p>
+            <p><span>nbsp;</span> Неразрывный пробел</p>
+            <p><span>lt;</span> <</p>
+            <p><span>gt;</span> ></p>
+            <p><span>;</span> "</p>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="6">Графические элементы</h2>
+            <p> <span>{img src="name"}</span> - Добавляет изображение в HTML документ</p>
+            <p> <span>{img src="name" align=?}</span> - Выравнивает изображение к одной из сторон документа, принимает значения: left, right, center; bottom, top, middle</p>
+            <p> <span>{img src="name" border=?}</span> - Устанавливает толщину рамки вокруг изображения</p>
+            <p> <span>{hr}</span> - Добавляет в HTML документ горизонтальную линию</p>
+            <p> <span>{hr size=?}</span> - Устанавливает высоту(толщину) линии</p>
+            <p> <span>{hr width=?}</span> - Устанавливает высоту(толщину) линии</p>
+            <p> <span>{hr noshade}</span> - Создает линию без тени</p>
+            <p> <span>{hr color=?}</span> - Задает линии определенный цвет. Значение RRGGBB</p>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="7">Таблицы</h2>
+            <p><span>{table}{/table}</span> - Создает таблицу</p>
+            <p><span>{tr}{/tr}</span> - Определяет строку в таблице</p>
+            <p><span>{td}{/td}</span> - Определяет отдельную ячейку в таблице</p>
+            <p><span>{th}{/th}</span> - Определяет заголовок таблицы (нормальная ячейка с отцентрованным жирным текстом)</p>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="8">Атрибуты таблицы</h2>
+            <p><span>{table border=#}{/table}</span> - Задает толщину рамки таблицы</p>
+            <p><span>{table cellspacing=#}{/table}</span> - Задает расстояние между ячейками таблицы</p>
+            <p><span>{table cellpadding=#}{/table}</span> - Задает расстояние между содержимым ячейки и ее рамкой</p>
+            <p><span>{table width=#}</span> - Устанавливает ширину таблицы в пикселах или процентах от ширины документа</p>
+            <p><span>{tr align=?} или {td align=?}{/td}</span> - Устанавливает выравнивание ячеек в таблице, принимает значения: left, center, или right</p>
+            <p><span>{tr valign=?} или {td valign=?}{/td}</span> - Устанавливает вертикальное выравнивание для ячеек таблицы, принимает значения : top, middle, или bottom</p>
+            <p><span>{td colspan=#}{/td}</span> - Указывает кол-во столбцев которое объединено в одной ячейке</p>
+            <p><span>{td rowspan=#}{/td}</span> - Указывает кол-во строк которое объединено в одной ячейке</p>
+            <p><span>{td nowrap}{/td}</span> - Не позволяет программе просмотра делать перевод строки в ячейке таблицы</p>
+        </section>
+        <hr color>
+        <section>
+            <h2 id="9">Формы</h2>
+            <p><span>{form}{/form}</span> - Создает формы</p>
+            <p><span>{select multiple name="NAME" size=?}{/select}</span> - Создает скролируемое меню. Size устанавливает кол-во пунктов меню, которое будет показано на экране, остальные будут доступны при использовании прокрутки</p>
+            <p><span>{option}{/option}</span> - Указывает каждый отдельный элемент меню</p>
+            <p><span>{select name="NAME"}{/select}</span> - Создает ниспадающее меню</p>
+            <p><span>{textarea name="NAME" cols=40 rows=8}{/textarea}</span> - Создает окно для ввода текста. Columns указывает ширину окна; rows указывает его высоту</p>
+            <p><span>{input type="checkbox" name="NAME"}</span> - Создает checkbox. За тегом следует текст</p>
+            <p><span>{input type="radio" name="NAME" value="x"}</span> - Создает radio кнопку. За тегом следует текст</p>
+            <p><span>{input type=text name="foo" size=20}</span> - Создает строку для ввода текста. Параметром Size указывается длина в символах</p>
+            <p><span>{input type="submit" value="NAME"}</span> - Создает кнопку "Принять</p>
+            <p><span>{input type="image" border=0 name="NAME" src="name.gif"}</span> - Создает кнопку "Принять" - для этого используется изображение</p>
+            <p><span>{input type="reset"}</span> - Создает кнопку "Отмена"</p>
+        </section>
+    </main>
+</body>
+
+</html>

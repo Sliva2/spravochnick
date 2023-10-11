@@ -1,0 +1,59 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif Franklin Gothic Medium;
+    background: linear-gradient(90deg, #555555, #ac9fa4, #333131, #f0fffb, #808080, #474747);
+    background-size: 500% 500%;
+    animation: Gradient 120s ease infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    outline: 2px solid #000; 
+    width: 400px;
+    height: 220px;
+    border-radius: 40px;
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    max-width: 100%;
+    display: block;
+}
+
+.text_nomber_1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr {
+    color: black;
+}
+
+.PHP {
+    width: 350px;
+}
